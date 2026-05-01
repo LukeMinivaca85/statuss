@@ -1,4 +1,4 @@
-owner: SEU_USUARIO_GITHUB
+owner: LukeMinivaca85
 repo: status
 
 sites:
@@ -16,16 +16,31 @@ sites:
     url: https://lukintosh.com/status.html
   - name: security.txt
     url: https://lukintosh.com/.well-known/security.txt
+  - name: Accounts
+    url: https://accounts.lukintosh.com
+  - name: 360 Experience
+    url: https://360.inside.lukintosh.com
 
 status-website:
   cname: status.lukintosh.com
   name: Lukintosh Status
-  introTitle: "Lukintosh Status"
-  introMessage: "Real-time public service status for Lukintosh websites and trust systems."
+  introTitle: "Lukintosh System Status"
+  introMessage: "Real-time monitoring of Lukintosh services."
   navbar:
     - title: Website
       href: https://lukintosh.com
-    - title: Trust Center
+    - title: Trust
       href: https://lukintosh.com/trust.html
-    - title: GitHub
-      href: https://github.com/LukeMinivaca85/statuss
+    - title: Security
+      href: https://lukintosh.com/security.html
+    - title: Privacy
+      href: https://lukintosh.com/privacy.html
+
+i18n:
+  footer: "Lukintosh © 2026 — Transparency-first infrastructure"
+
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  responseTime: "*/5 * * * *"
+  graphs: "0 */6 * * *"
+  summary: "0 0 * * *"
