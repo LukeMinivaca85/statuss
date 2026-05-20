@@ -26,9 +26,6 @@ sites:
   - name: Lukintosh Developer
     url: https://developer.lukintosh.com
 
-  - name: Lukintosh Status
-    url: https://status.lukintosh.com
-
 status-website:
   cname: status.lukintosh.com
   name: Lukintosh Status
