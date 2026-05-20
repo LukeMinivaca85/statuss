@@ -27,7 +27,6 @@ sites:
     url: https://developer.lukintosh.com
 
 status-website:
-  cname: status.lukintosh.com
   name: Lukintosh Status
   introTitle: "Lukintosh System Status"
   introMessage: "Real-time availability and reliability monitoring for Lukintosh websites, accounts, developer tools, trust pages and public infrastructure."
