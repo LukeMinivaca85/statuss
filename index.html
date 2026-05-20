@@ -1,26 +1,174 @@
-<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1" name=viewport> <meta content=#333333 name=theme-color> <base href=/ > <link href=manifest.json rel=manifest crossorigin=use-credentials> <script>__SAPPER__={baseUrl:"",preloaded:[void 0,{}]};if('serviceWorker' in navigator)navigator.serviceWorker.register('/service-worker.js');(function(){try{eval("async function x(){}");var main="/client/client.d2e6abed.js"}catch(e){main="/client/legacy/client.0d1f0c14.js"};var s=document.createElement("script");try{new Function("if(0)import('')")();s.src=main;s.type="module";s.crossOrigin="use-credentials";}catch(e){s.src="/client/shimport@2.0.5.js";s.setAttribute("data-main",main);}document.head.appendChild(s);}());</script> <link href=client/client-31a52aa5.css rel=stylesheet><link href=client/createOctokit-a85f76c7.css rel=stylesheet><link href=client/index-b0b6455a.css rel=stylesheet> <title>Lukintosh Status</title> <script>// If `prefers-color-scheme` is not supported, fall back to light mode.
-      // In this case, light.css will be downloaded with `highest` priority.
-      if (typeof window !== "undefined" && typeof document !== "undefined" && "matchMedia" in window && window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
-        document.documentElement.style.display = 'none';
-        document.head.insertAdjacentHTML(
-          'beforeend',
-          '<link rel="stylesheet" href={`${config.path}/themes/light.css`} onload="document.documentElement.style.display = \'\'">',
-        );
-      } </script> <link href=https://status.lukintosh.com/themes/light.css rel=stylesheet media=(prefers-color-scheme:light)> <link href=https://status.lukintosh.com/themes/dark.css rel=stylesheet media=(prefers-color-scheme:dark)><link href=https://status.lukintosh.com/global.css rel=stylesheet><link href=https://raw.githubusercontent.com/upptime/upptime/master/assets/upptime-icon.svg rel=icon type=image/svg><link href=/logo-192.png rel=icon type=image/png> <link href=/client/client.d2e6abed.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/client-31a52aa5.css rel=preload as=style><link href=/client/index.559ac477.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit.40408566.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/inject_styles.803b7e80.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit-a85f76c7.css rel=preload as=style><link href=/client/index-b0b6455a.css rel=preload as=style></head> <body> <div id=sapper> <nav class=svelte-a08hsz><div class="svelte-a08hsz container"> <ul class=svelte-a08hsz><li><a class=svelte-a08hsz href=https://lukintosh.com target=_self>Website</a> <li><a class=svelte-a08hsz href=https://lukintosh.com/trust.html target=_self>Trust</a> <li><a class=svelte-a08hsz href=https://lukintosh.com/security.html target=_self>Security</a> <li><a class=svelte-a08hsz href=https://lukintosh.com/privacy.html target=_self>Privacy</a> </li> </ul></div> </nav> <main class=container> <header class=svelte-ngkazm><h1>Lukintosh System Status</h1> <p class="svelte-ngkazm lead">Real-time monitoring of Lukintosh services.</header> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <div class="svelte-fqsq6s f changed"><h2>Live Status</h2> <form class="svelte-fqsq6s f r"><div><input class=svelte-fqsq6s id=data_day name=d type=radio value=day><label class=svelte-fqsq6s for=data_day>24h</label></div> <div><input class=svelte-fqsq6s id=data_week name=d type=radio value=week checked><label class=svelte-fqsq6s for=data_week>7d</label></div> <div><input class=svelte-fqsq6s id=data_month name=d type=radio value=month><label class=svelte-fqsq6s for=data_month>30d</label></div> <div><input class=svelte-fqsq6s id=data_year name=d type=radio value=year><label class=svelte-fqsq6s for=data_year>1y</label></div> <div><input class=svelte-fqsq6s id=data_all name=d type=radio value=all><label class=svelte-fqsq6s for=data_all>all</label></div></form></div> <section class="svelte-fqsq6s live-status"><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div></section></main> <footer class=svelte-jbr799><p>Lukintosh © 2026 — Transparency-first infrastructure</p> </footer></div> <script> try {
-        if (typeof window !== "undefined" && window.navigator && navigator.serviceWorker) {
-          navigator.serviceWorker.getRegistrations().then(function (registrations) {
-            for (let registration of registrations) {
-              registration.unregister();
-            }
-          });
-        }
-        if (typeof window !== "undefined" && "caches" in window) {
-          caches.keys().then(function (keyList) {
-            return Promise.all(
-              keyList.map(function (key) {
-                return caches.delete(key);
-              })
-            );
-          });
-        }
-      } catch (error) {} </script> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lukintosh Status</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg:#090b10; --card:rgba(255,255,255,.07); --line:rgba(255,255,255,.12);
+      --text:#f5f7fb; --muted:#a7b0c3; --green:#6ef3a5; --blue:#4aa8ff;
+      --yellow:#ffcc66; --radius:26px;
+    }
+
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body {
+      font-family:Inter,system-ui,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(74,168,255,.22), transparent 34rem),
+        radial-gradient(circle at 80% 0%, rgba(180,140,255,.18), transparent 30rem),
+        var(--bg);
+      min-height:100vh;
+    }
+
+    header, main, footer { max-width:1100px; margin:auto; padding:24px; }
+
+    nav {
+      display:flex; align-items:center; justify-content:space-between;
+      border-bottom:1px solid var(--line); padding-bottom:18px;
+    }
+
+    .brand { display:flex; gap:12px; align-items:center; font-weight:850; letter-spacing:-.04em; }
+    .logo { width:36px; height:36px; border-radius:13px; background:linear-gradient(135deg,#55e2ff,#4aa8ff,#b48cff); }
+
+    .pill {
+      display:inline-flex; align-items:center; gap:8px; padding:9px 13px;
+      border:1px solid rgba(110,243,165,.25); border-radius:999px;
+      background:rgba(110,243,165,.08); color:var(--green); font-weight:700;
+      font-size:14px;
+    }
+
+    .dot { width:9px; height:9px; border-radius:50%; background:var(--green); box-shadow:0 0 18px var(--green); }
+
+    .hero { padding:80px 0 40px; }
+    h1 { font-size:clamp(46px,7vw,82px); line-height:.92; letter-spacing:-.075em; max-width:820px; }
+    .gradient { background:linear-gradient(135deg,#fff,#9bd9ff 45%,#b48cff); -webkit-background-clip:text; color:transparent; }
+    .hero p { color:var(--muted); font-size:18px; line-height:1.7; max-width:680px; margin-top:24px; }
+
+    .summary {
+      margin-top:34px; padding:24px; border:1px solid var(--line); border-radius:var(--radius);
+      background:var(--card); display:grid; grid-template-columns:1fr auto; gap:20px; align-items:center;
+    }
+
+    .summary h2 { font-size:28px; letter-spacing:-.04em; }
+    .summary p { color:var(--muted); margin-top:8px; }
+
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:24px; }
+    .card {
+      padding:20px; border:1px solid var(--line); border-radius:var(--radius);
+      background:var(--card);
+    }
+    .card h3 { font-size:19px; letter-spacing:-.03em; margin-bottom:8px; }
+    .card p { color:var(--muted); line-height:1.55; font-size:14px; }
+
+    .status { margin-top:16px; display:inline-flex; gap:8px; align-items:center; font-weight:750; }
+    .status.operational { color:var(--green); }
+    .status.preview { color:var(--yellow); }
+
+    .small-dot { width:8px; height:8px; border-radius:50%; background:currentColor; }
+
+    .incident {
+      margin-top:28px; padding:22px; border:1px solid var(--line); border-radius:var(--radius);
+      background:rgba(255,255,255,.045);
+    }
+
+    .incident h2 { font-size:26px; letter-spacing:-.04em; margin-bottom:12px; }
+    .incident-item {
+      display:flex; justify-content:space-between; gap:16px; padding:14px 0;
+      border-top:1px solid var(--line); color:var(--muted);
+    }
+
+    footer { color:var(--muted); border-top:1px solid var(--line); margin-top:50px; }
+
+    @media (max-width:800px) {
+      .grid { grid-template-columns:1fr; }
+      .summary { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="brand">
+        <span class="logo"></span>
+        <span>Lukintosh Status</span>
+      </div>
+      <span class="pill"><span class="dot"></span> All Systems Operational</span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Real-time status for the <span class="gradient">Lukintosh platform.</span></h1>
+      <p>Availability, reliability and operational updates for Lukintosh websites, accounts, developer tools and public infrastructure.</p>
+
+      <div class="summary">
+        <div>
+          <h2>All monitored services are operational.</h2>
+          <p>Last updated automatically by Lukintosh Status infrastructure.</p>
+        </div>
+        <span class="pill"><span class="dot"></span> Operational</span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Lukintosh Website</h3>
+        <p>Main public website and corporate web presence.</p>
+        <div class="status operational"><span class="small-dot"></span> Operational</div>
+      </div>
+
+      <div class="card">
+        <h3>Lukintosh Accounts</h3>
+        <p>Identity, login and account access services.</p>
+        <div class="status operational"><span class="small-dot"></span> Operational</div>
+      </div>
+
+      <div class="card">
+        <h3>Developer Portal</h3>
+        <p>Developer documentation, SDKs and API key console.</p>
+        <div class="status preview"><span class="small-dot"></span> Preview</div>
+      </div>
+
+      <div class="card">
+        <h3>Trust Center</h3>
+        <p>Security, privacy, compliance and transparency resources.</p>
+        <div class="status operational"><span class="small-dot"></span> Operational</div>
+      </div>
+
+      <div class="card">
+        <h3>Security Page</h3>
+        <p>Security posture and vulnerability disclosure information.</p>
+        <div class="status operational"><span class="small-dot"></span> Operational</div>
+      </div>
+
+      <div class="card">
+        <h3>Yeux SDK</h3>
+        <p>Eye, head pose and accessibility interface tools.</p>
+        <div class="status preview"><span class="small-dot"></span> Preview</div>
+      </div>
+    </section>
+
+    <section class="incident">
+      <h2>Incident history</h2>
+      <div class="incident-item">
+        <span>No active incidents</span>
+        <strong>Today</strong>
+      </div>
+      <div class="incident-item">
+        <span>Status page migrated to Lukintosh visual system</span>
+        <strong>May 2026</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Lukintosh © 2026 — Transparency-first infrastructure
+  </footer>
+</body>
+</html>
