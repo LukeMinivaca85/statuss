@@ -4,37 +4,53 @@ repo: statuss
 sites:
   - name: Lukintosh Website
     url: https://lukintosh.com
-  - name: Trust Center
+
+  - name: Lukintosh Trust Center
     url: https://lukintosh.com/trust.html
-  - name: Security Page
+
+  - name: Lukintosh Security Page
     url: https://lukintosh.com/security.html
-  - name: Privacy Policy
+
+  - name: Lukintosh Privacy Policy
     url: https://lukintosh.com/privacy.html
-  - name: Terms of Use
+
+  - name: Lukintosh Terms of Use
     url: https://lukintosh.com/terms.html
-  - name: Status Page
-    url: https://lukintosh.com/status.html
-  - name: security.txt
+
+  - name: Lukintosh Security.txt
     url: https://lukintosh.com/.well-known/security.txt
-  - name: Accounts
-    url: https://accounts.lukintosh.com
-  - name: 360 Experience
-    url: https://360.inside.lukintosh.com
+
+  - name: Lukintosh Accounts
+    url: https://myaccount.lukintosh.com
+
+  - name: Lukintosh Developer
+    url: https://developer.lukintosh.com
+
+  - name: Lukintosh Status
+    url: https://status.lukintosh.com
 
 status-website:
   cname: status.lukintosh.com
   name: Lukintosh Status
   introTitle: "Lukintosh System Status"
-  introMessage: "Real-time monitoring of Lukintosh services."
+  introMessage: "Real-time availability and reliability monitoring for Lukintosh websites, accounts, developer tools, trust pages and public infrastructure."
+  logoUrl: https://lukintosh.com/assets/logo.svg
+  favicon: https://lukintosh.com/assets/favicon.ico
+  theme: dark
+
   navbar:
+    - title: Status
+      href: /
     - title: Website
       href: https://lukintosh.com
+    - title: Accounts
+      href: https://myaccount.lukintosh.com
+    - title: Developer
+      href: https://developer.lukintosh.com
     - title: Trust
       href: https://lukintosh.com/trust.html
     - title: Security
       href: https://lukintosh.com/security.html
-    - title: Privacy
-      href: https://lukintosh.com/privacy.html
 
 i18n:
   footer: "Lukintosh © 2026 — Transparency-first infrastructure"
