@@ -91,6 +91,75 @@
     }
   </style>
 </head>
+  <script>
+const UPPTIME_SUMMARY_URL =
+  "https://raw.githubusercontent.com/LukeMinivaca85/statuss/gh-pages/history/summary.json";
+
+const serviceMap = {
+  "Lukintosh Website": "Lukintosh Website",
+  "Lukintosh Accounts": "Lukintosh Accounts",
+  "Lukintosh Developer": "Developer Portal",
+  "Lukintosh Trust Center": "Trust Center",
+  "Lukintosh Security Page": "Security Page"
+};
+
+async function loadUpptimeStatus() {
+  try {
+    const res = await fetch(UPPTIME_SUMMARY_URL + "?t=" + Date.now());
+    const data = await res.json();
+
+    let hasDown = false;
+
+    data.forEach(service => {
+      const displayName = serviceMap[service.name] || service.name;
+
+      const cards = [...document.querySelectorAll(".card")];
+      const card = cards.find(c =>
+        c.querySelector("h3")?.textContent.trim() === displayName
+      );
+
+      if (!card) return;
+
+      const statusEl = card.querySelector(".status");
+      if (!statusEl) return;
+
+      const isUp = service.status === "up";
+
+      if (isUp) {
+        statusEl.className = "status operational";
+        statusEl.innerHTML = `<span class="small-dot"></span> Operational · ${service.responseTime}ms`;
+      } else {
+        hasDown = true;
+        statusEl.className = "status down";
+        statusEl.innerHTML = `<span class="small-dot"></span> Down`;
+      }
+    });
+
+    const summaryTitle = document.querySelector(".summary h2");
+    const pill = document.querySelector(".summary .pill");
+
+    if (hasDown) {
+      summaryTitle.textContent = "Some monitored services are experiencing issues.";
+      pill.innerHTML = `<span class="dot"></span> Partial Outage`;
+      pill.style.color = "#ffcc66";
+    } else {
+      summaryTitle.textContent = "All monitored services are operational.";
+      pill.innerHTML = `<span class="dot"></span> Operational`;
+      pill.style.color = "#6ef3a5";
+    }
+  } catch (err) {
+    console.error("Failed to load Upptime status:", err);
+
+    const summaryTitle = document.querySelector(".summary h2");
+    if (summaryTitle) {
+      summaryTitle.textContent = "Status data is temporarily unavailable.";
+    }
+  }
+}
+
+loadUpptimeStatus();
+setInterval(loadUpptimeStatus, 60000);
+</script>
 <body>
   <header>
     <nav>
