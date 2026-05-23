@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/lukintosh.com.ico",
     "slug": "lukintosh-website",
     "status": "down",
-    "uptime": "98.38%",
-    "uptimeDay": "91.98%",
-    "uptimeWeek": "98.85%",
-    "uptimeMonth": "98.38%",
-    "uptimeYear": "98.38%",
+    "uptime": "98.19%",
+    "uptimeDay": "87.72%",
+    "uptimeWeek": "98.25%",
+    "uptimeMonth": "98.19%",
+    "uptimeYear": "98.19%",
     "time": 711,
     "timeDay": 916,
     "timeWeek": 784,
     "timeMonth": 711,
     "timeYear": 711,
     "dailyMinutesDown": {
-      "2026-05-23": 116,
+      "2026-05-23": 177,
       "2026-05-14": 238,
       "2026-05-06": 159
     }
@@ -27,18 +27,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/lukintosh.com.ico",
     "slug": "lukintosh-trust-center",
     "status": "up",
-    "uptime": "95.62%",
-    "uptimeDay": "87.00%",
-    "uptimeWeek": "95.62%",
-    "uptimeMonth": "95.62%",
-    "uptimeYear": "95.62%",
+    "uptime": "94.27%",
+    "uptimeDay": "82.74%",
+    "uptimeWeek": "94.27%",
+    "uptimeMonth": "94.27%",
+    "uptimeYear": "94.27%",
     "time": 1500,
     "timeDay": 2972,
     "timeWeek": 1500,
     "timeMonth": 1500,
     "timeYear": 1500,
     "dailyMinutesDown": {
-      "2026-05-23": 187
+      "2026-05-23": 248
     }
   },
   {
@@ -46,19 +46,19 @@
     "url": "https://lukintosh.com/security.html",
     "icon": "https://icons.duckduckgo.com/ip3/lukintosh.com.ico",
     "slug": "lukintosh-security-page",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1665,
-    "timeDay": 4117,
-    "timeWeek": 1665,
-    "timeMonth": 1665,
-    "timeYear": 1665,
+    "status": "up",
+    "uptime": "98.59%",
+    "uptimeDay": "95.74%",
+    "uptimeWeek": "98.59%",
+    "uptimeMonth": "98.59%",
+    "uptimeYear": "98.59%",
+    "time": 1392,
+    "timeDay": 2752,
+    "timeWeek": 1392,
+    "timeMonth": 1392,
+    "timeYear": 1392,
     "dailyMinutesDown": {
-      "2026-05-23": 0
+      "2026-05-23": 61
     }
   },
   {
@@ -67,18 +67,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/lukintosh.com.ico",
     "slug": "lukintosh-privacy-policy",
     "status": "up",
-    "uptime": "95.62%",
-    "uptimeDay": "87.00%",
-    "uptimeWeek": "95.62%",
-    "uptimeMonth": "95.62%",
-    "uptimeYear": "95.62%",
+    "uptime": "94.27%",
+    "uptimeDay": "82.75%",
+    "uptimeWeek": "94.27%",
+    "uptimeMonth": "94.27%",
+    "uptimeYear": "94.27%",
     "time": 269,
     "timeDay": 512,
     "timeWeek": 269,
     "timeMonth": 269,
     "timeYear": 269,
     "dailyMinutesDown": {
-      "2026-05-23": 187
+      "2026-05-23": 248
     }
   },
   {
@@ -86,19 +86,19 @@
     "url": "https://lukintosh.com/terms.html",
     "icon": "https://icons.duckduckgo.com/ip3/lukintosh.com.ico",
     "slug": "lukintosh-terms-of-use",
-    "status": "down",
-    "uptime": "97.32%",
-    "uptimeDay": "92.06%",
-    "uptimeWeek": "97.32%",
-    "uptimeMonth": "97.32%",
-    "uptimeYear": "97.32%",
-    "time": 311,
-    "timeDay": 517,
-    "timeWeek": 311,
-    "timeMonth": 311,
-    "timeYear": 311,
+    "status": "up",
+    "uptime": "95.95%",
+    "uptimeDay": "87.81%",
+    "uptimeWeek": "95.95%",
+    "uptimeMonth": "95.95%",
+    "uptimeYear": "95.95%",
+    "time": 275,
+    "timeDay": 418,
+    "timeWeek": 275,
+    "timeMonth": 275,
+    "timeYear": 275,
     "dailyMinutesDown": {
-      "2026-05-23": 114
+      "2026-05-23": 175
     }
   },
   {
@@ -106,19 +106,19 @@
     "url": "https://lukintosh.com/.well-known/security.txt",
     "icon": "https://icons.duckduckgo.com/ip3/lukintosh.com.ico",
     "slug": "lukintosh-security-txt",
-    "status": "down",
-    "uptime": "95.62%",
-    "uptimeDay": "87.01%",
-    "uptimeWeek": "95.62%",
-    "uptimeMonth": "95.62%",
-    "uptimeYear": "95.62%",
-    "time": 237,
-    "timeDay": 405,
-    "timeWeek": 237,
-    "timeMonth": 237,
-    "timeYear": 237,
+    "status": "up",
+    "uptime": "94.27%",
+    "uptimeDay": "82.76%",
+    "uptimeWeek": "94.27%",
+    "uptimeMonth": "94.27%",
+    "uptimeYear": "94.27%",
+    "time": 208,
+    "timeDay": 325,
+    "timeWeek": 208,
+    "timeMonth": 208,
+    "timeYear": 208,
     "dailyMinutesDown": {
-      "2026-05-23": 187
+      "2026-05-23": 248
     }
   },
   {
