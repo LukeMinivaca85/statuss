@@ -1,7 +1,7 @@
 url: https://lukintosh.com/.well-known/security.txt
-status: down
-code: 403
-responseTime: 572
-lastUpdated: 2026-06-09T16:17:32.568Z
+status: up
+code: 200
+responseTime: 627
+lastUpdated: 2026-06-09T18:24:51.890Z
 startTime: 2026-05-20T15:57:41.650Z
 generator: Upptime <https://github.com/upptime/upptime>
